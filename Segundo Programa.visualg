@@ -1,0 +1,17 @@
+algoritmo "Segundo Programa"
+
+var 
+  nota1: real
+  nota2: real
+  media: real
+
+inicio
+
+  escreval("Digite sua primeira nota")
+  leia(nota1)
+  escreval("Digite sua segunda nota")
+  leia(nota2)
+  media <- (nota1 + nota2) / 2
+  escreva("Sua media é ", media)
+
+fimalgoritmo
