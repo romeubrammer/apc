@@ -1,0 +1,20 @@
+algoritmo "ExemploDeFuncao"
+
+var
+  resultadoCasoA: inteiro
+  resultadoCasoB: inteiro
+  resultadoCasoC: inteiro
+
+  funcao somar(numeroA:inteiro, nuemroB: inteiro): inteiro
+    inicio
+      retorne numeroA + nuemroB
+    fimfuncao
+
+inicio
+  resultadoCasoA <- somar(1, 1)
+  resultadoCasoB <- somar(5, 10)
+  resultadoCasoC <- somar(100, 1)
+  escreval("Resultado do caso A: ", resultadoCasoA)
+  escreval("Resultado do caso B: ", resultadoCasoB)
+  escreval("Resultado do caso C: ", resultadoCasoC)
+fimalgoritmo
