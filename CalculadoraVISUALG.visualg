@@ -1,0 +1,27 @@
+algoritmo "Calculadora"
+
+var
+  n1: real
+  n2: real
+
+inicio
+  // Solicitando as entradas do usuario
+  escreva("Digite o primeiro numero: ")
+  leia(n1)
+
+  escreval("Digite o segundo número: ")
+  leia(n2)
+
+
+  // Diferentes operacoes 
+  escreval("-------------------")
+  escreval("n1: ", n1)
+  escreval("n2: ", n2)
+  escreval("Soma: ", n1 + n2)
+  escreval("Multiplicacao: ", n1 * n2)
+  escreval("Divisao real (/): ", n1 / n2)
+  escreval("Divisao inteira (\): ", n1 \ n2)
+  escreval("Resto da divisao (modulo): ", n1 mod n2)
+  escreval("Potencia: ", n1 ^ n2)
+
+fimalgoritmo
