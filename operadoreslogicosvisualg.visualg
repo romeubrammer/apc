@@ -1,0 +1,17 @@
+algoritmo "operadoreslogicosvisualg"
+
+var
+  idade: inteiro
+  maioridadeCivil: inteiro
+  maioridadePenal: inteiro
+
+inicio
+  idade <- 18
+  maioridadeCivil <- 21
+  maioridadePenal <- 18
+
+  escreval("É maior das duas idades? ", idade >= maioridadePenal E idade >= maioridadePenal)
+  escreval("É maior de alguma idade? ", idade >= maioridadePenal OU idade >= maioridadePenal)
+  escreval("É menor de idade para ambas? ", NAO (idade <= maioridadePenal E idade <= maioridadePenal))
+
+fimalgoritmo
